@@ -1,0 +1,69 @@
+body {
+  background-color: #f4eee0;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #597fc8;
+  font-family: sans-serif;
+  font-size: 38px;
+}
+
+h2 {
+  margin: 1 1 10px;
+  font-size: 35px;
+  color: #597fc8;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.cotainer {
+  max-width: 600px;
+  margin: 60px auto;
+  background-image: url("https://images.unsplash.com/photo-1536662788222-6927ce05daea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  padding: 30px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 6px;
+}
+
+.city {
+  display: flex;
+  color: #f4eee0;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+.date {
+  opacity: 0.7;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.time {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 26px;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  color: #597fc8;
+}
